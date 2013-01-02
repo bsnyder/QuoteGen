@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070385C41693F3930040BA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070385C31693F3930040BA2C /* UIKit.framework */; };
+		070385C61693F3930040BA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070385C51693F3930040BA2C /* Foundation.framework */; };
+		070385C81693F3930040BA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070385C71693F3930040BA2C /* CoreGraphics.framework */; };
+		070385CE1693F3930040BA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 070385CC1693F3930040BA2C /* InfoPlist.strings */; };
+		070385D01693F3930040BA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 070385CF1693F3930040BA2C /* main.m */; };
+		070385D41693F3930040BA2C /* com_mycompanyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070385D31693F3930040BA2C /* com_mycompanyAppDelegate.m */; };
+		070385D61693F3930040BA2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 070385D51693F3930040BA2C /* Default.png */; };
+		070385D81693F3930040BA2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 070385D71693F3930040BA2C /* Default@2x.png */; };
+		070385DA1693F3930040BA2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 070385D91693F3930040BA2C /* Default-568h@2x.png */; };
+		070385DD1693F3930040BA2C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070385DB1693F3930040BA2C /* MainStoryboard.storyboard */; };
+		070385E01693F3930040BA2C /* com_mycompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070385DF1693F3930040BA2C /* com_mycompanyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070385BF1693F3930040BA2C /* QuoteGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070385C31693F3930040BA2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		070385C51693F3930040BA2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		070385C71693F3930040BA2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		070385CB1693F3930040BA2C /* QuoteGen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuoteGen-Info.plist"; sourceTree = "<group>"; };
+		070385CD1693F3930040BA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		070385CF1693F3930040BA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		070385D11693F3930040BA2C /* QuoteGen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuoteGen-Prefix.pch"; sourceTree = "<group>"; };
+		070385D21693F3930040BA2C /* com_mycompanyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_mycompanyAppDelegate.h; sourceTree = "<group>"; };
+		070385D31693F3930040BA2C /* com_mycompanyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_mycompanyAppDelegate.m; sourceTree = "<group>"; };
+		070385D51693F3930040BA2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		070385D71693F3930040BA2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		070385D91693F3930040BA2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		070385DC1693F3930040BA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		070385DE1693F3930040BA2C /* com_mycompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_mycompanyViewController.h; sourceTree = "<group>"; };
+		070385DF1693F3930040BA2C /* com_mycompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_mycompanyViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070385BC1693F3920040BA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070385C41693F3930040BA2C /* UIKit.framework in Frameworks */,
+				070385C61693F3930040BA2C /* Foundation.framework in Frameworks */,
+				070385C81693F3930040BA2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070385B41693F3920040BA2C = {
+			isa = PBXGroup;
+			children = (
+				070385C91693F3930040BA2C /* QuoteGen */,
+				070385C21693F3930040BA2C /* Frameworks */,
+				070385C01693F3930040BA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070385C01693F3930040BA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070385BF1693F3930040BA2C /* QuoteGen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070385C21693F3930040BA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070385C31693F3930040BA2C /* UIKit.framework */,
+				070385C51693F3930040BA2C /* Foundation.framework */,
+				070385C71693F3930040BA2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		070385C91693F3930040BA2C /* QuoteGen */ = {
+			isa = PBXGroup;
+			children = (
+				070385D21693F3930040BA2C /* com_mycompanyAppDelegate.h */,
+				070385D31693F3930040BA2C /* com_mycompanyAppDelegate.m */,
+				070385DB1693F3930040BA2C /* MainStoryboard.storyboard */,
+				070385DE1693F3930040BA2C /* com_mycompanyViewController.h */,
+				070385DF1693F3930040BA2C /* com_mycompanyViewController.m */,
+				070385CA1693F3930040BA2C /* Supporting Files */,
+			);
+			path = QuoteGen;
+			sourceTree = "<group>";
+		};
+		070385CA1693F3930040BA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				070385CB1693F3930040BA2C /* QuoteGen-Info.plist */,
+				070385CC1693F3930040BA2C /* InfoPlist.strings */,
+				070385CF1693F3930040BA2C /* main.m */,
+				070385D11693F3930040BA2C /* QuoteGen-Prefix.pch */,
+				070385D51693F3930040BA2C /* Default.png */,
+				070385D71693F3930040BA2C /* Default@2x.png */,
+				070385D91693F3930040BA2C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070385BE1693F3920040BA2C /* QuoteGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070385E31693F3930040BA2C /* Build configuration list for PBXNativeTarget "QuoteGen" */;
+			buildPhases = (
+				070385BB1693F3920040BA2C /* Sources */,
+				070385BC1693F3920040BA2C /* Frameworks */,
+				070385BD1693F3920040BA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteGen;
+			productName = QuoteGen;
+			productReference = 070385BF1693F3930040BA2C /* QuoteGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070385B61693F3920040BA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.mycompany;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bruce Snyder";
+			};
+			buildConfigurationList = 070385B91693F3920040BA2C /* Build configuration list for PBXProject "QuoteGen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 070385B41693F3920040BA2C;
+			productRefGroup = 070385C01693F3930040BA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070385BE1693F3920040BA2C /* QuoteGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070385BD1693F3920040BA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070385CE1693F3930040BA2C /* InfoPlist.strings in Resources */,
+				070385D61693F3930040BA2C /* Default.png in Resources */,
+				070385D81693F3930040BA2C /* Default@2x.png in Resources */,
+				070385DA1693F3930040BA2C /* Default-568h@2x.png in Resources */,
+				070385DD1693F3930040BA2C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070385BB1693F3920040BA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070385D01693F3930040BA2C /* main.m in Sources */,
+				070385D41693F3930040BA2C /* com_mycompanyAppDelegate.m in Sources */,
+				070385E01693F3930040BA2C /* com_mycompanyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		070385CC1693F3930040BA2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070385CD1693F3930040BA2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		070385DB1693F3930040BA2C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070385DC1693F3930040BA2C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		070385E11693F3930040BA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		070385E21693F3930040BA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070385E41693F3930040BA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuoteGen/QuoteGen-Prefix.pch";
+				INFOPLIST_FILE = "QuoteGen/QuoteGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		070385E51693F3930040BA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuoteGen/QuoteGen-Prefix.pch";
+				INFOPLIST_FILE = "QuoteGen/QuoteGen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070385B91693F3920040BA2C /* Build configuration list for PBXProject "QuoteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070385E11693F3930040BA2C /* Debug */,
+				070385E21693F3930040BA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070385E31693F3930040BA2C /* Build configuration list for PBXNativeTarget "QuoteGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070385E41693F3930040BA2C /* Debug */,
+				070385E51693F3930040BA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070385B61693F3920040BA2C /* Project object */;
+}
